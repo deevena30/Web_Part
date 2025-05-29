@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trash to Treasure Event</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0fdf4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      max-width: 420px;
+      width: 100%;
+      padding: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+
+    }
+
+    .card h2 {
+      font-size: 2.5rem;
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    .card .date {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .card button {
+      width: 100%;
+      padding: 12px;
+      background-color: #2e7d32;
+      color: white;
+      border: 2px solid #2e7d32;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .card button:hover {
+      background-color: white;
+      color:#1b5e20;
+      border:2px solid #1b5e20 ;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 20px;
+      }
+
+      .card h2 {
+        font-size: 2.3rem;
+      }
+
+      .card p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Trash to Treasure</h2>
+    <div class="date">♻️ June 15, 2025 | 2:00 PM @ OLD SAC</div>
+    <p>Unleash your creativity by turning waste into wonders! Participate in our competition and show how trash can become treasure. Open to all students!</p>
+    <button>Register Now</button>
+  </div>
+
+</body>
+</html>
